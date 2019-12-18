@@ -1,13 +1,10 @@
 rf-car
 ------
-This is a small program for controlling RC cars with HackRF. 
-Most of the RC toys use the same protocol, so you just need to find the
-frequency on which the toy operate. In my case it is 40.684 MHz. If your RC toy
-can move in 8 directions (forward, backward, left, right, forward-right,
-forward-left, backward-right, backward-left), then there is a great chance that
-you can use this program to control it.
+Bu HackRF ilə RC avtomobillərinə nəzarət etmək üçün kiçik bir proqramdır. RC oyuncaqlarının əksəriyyəti eyni protokoldan istifadə edir, buna görə oyuncağın işlədiyi tezliyi tapmaq lazımdır. Mənim vəziyyətimdə 40.684 MHz-dir. RC oyuncağınız 8 istiqamətdə (irəli, geriyə, sola, sağa, irəli-sağa, irəli-sola, geriyə-sağa, geriyə-sola) hərəkət edə bilərsə, bu proqramı idarə etmək üçün istifadə edə biləcəyiniz böyük bir şans var. .
 
-You can see it in action here:
+Bunu hərəkətdə görə bilərsiniz:
+
+
 
 .. image:: screenshot.png
    :target: https://youtu.be/itS2pWkgNrM
