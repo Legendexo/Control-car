@@ -9,13 +9,8 @@ Bunu hərəkətdə görə bilərsiniz:
 .. image:: screenshot.png
    :target: https://youtu.be/itS2pWkgNrM
 
-how it works
-------------
-The remote control is using OOK modulation with long and short pulses. One long
-pulse is equal to three short pulses. For example, to move the car forward, we
-need to send 4 long pulses followed by 10 short pulses. We can easily find the
-control sequence for each direction by recording the signal from the RC and
-then analyse it with `inspectrum <https://github.com/miek/inspectrum>`_:
+Proqram necə işləyir
+Uzaqdan idarəetmə uzun və qısa pulslarla OOK modulyasiyasından istifadə edir. Bir uzun nəbz üç qısa nəbzə bərabərdir. Məsələn, avtomobili irəliyə aparmaq üçün 4 uzun puls göndərmək lazımdır, ardınca 10 qısa pulsasiya. RC-dən siqnal yazmaqla hər istiqamətə nəzarət ardıcıllığını asanlıqla tapa bilərik və sonra inspectrum ilə təhlil edə bilərik :
 
 .. image:: inspectrum.png
    :scale: 67 %
