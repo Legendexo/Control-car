@@ -15,10 +15,7 @@ Uzaqdan idarəetmə uzun və qısa pulslarla OOK modulyasiyasından istifadə ed
 .. image:: inspectrum.png
    :scale: 67 %
 
-To synthesize the signal with the HackRF, we need to transmit
-``SAMPLE_RATE/SYMBOL_RATE`` samples ('1' or '0') for each bit of the control
-sequence. We can find the ``SYMBOL_RATE`` with inspectrum, it is about 2018.
-We choose the ``SAMPLE_RATE`` to be 2M.
+Siqnalı HackRF ilə sintez etmək SAMPLE_RATE/SYMBOL_RATEüçün, nəzarət ardıcıllığının hər biti üçün nümunələr ('1' və ya '0') ötürməliyik . SYMBOL_RATEYoxlama ilə tapa bilərik, təxminən 2018-dir. Biz SAMPLE_RATE2M olacağıq.
 
 build & run
 -----------
