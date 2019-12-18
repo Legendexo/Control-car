@@ -17,9 +17,9 @@ Uzaqdan idarəetmə uzun və qısa pulslarla OOK modulyasiyasından istifadə ed
 
 Siqnalı HackRF ilə sintez etmək SAMPLE_RATE/SYMBOL_RATEüçün, nəzarət ardıcıllığının hər biti üçün nümunələr ('1' və ya '0') ötürməliyik . SYMBOL_RATEYoxlama ilə tapa bilərik, təxminən 2018-dir. Biz SAMPLE_RATE2M olacağıq.
 
-build & run
+Qurlaşdırmaq & run
 -----------
-The program depends only on SDL2, SDL2_image and libhackrf. To build on Linux::
+Proqram yalnız SDL2, SDL2_image və libhackrf-dən asılıdır. Linux üzərində qurmaq:
 
     $ sudo apt-get install libsdl2-dev libsdl2-image-dev libhackrf-dev
     $ make
